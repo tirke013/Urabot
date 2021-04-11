@@ -22,5 +22,3 @@ def postIt(u, p, i, path):
         newcaption = None
 
     bot.upload_photo(path+ "\\" + i, caption = newcaption, options={"rename":False})
-    #pathForRenaming = path + "\\" + i + ".REMOVE_ME"
-    #os.rename(path + "\\" + i + ".REMOVE_ME", path + "\\" + i)
