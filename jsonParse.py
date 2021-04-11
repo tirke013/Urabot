@@ -8,7 +8,6 @@ def parse(name, path):
 
     newdict = data["messages"]
 
-    '''probaj dekodiranje i jednog i drugog pa vidi jel mozes da dobijes jedno od drugog'''
     for line in newdict:
         if line["sender_name"].encode("latin-1").decode("unicode-escape") == name.encode("utf-8").decode("unicode-escape") and line["type"] == "Generic" and "content" in line:
             if line["content"] != "Liked a message":
