@@ -7,6 +7,10 @@ WHAT DOES URABOT DO?
 Urabot allows you to parse the text from a chat with your friend (works for exported Instagram chat and Facebook if I remember correctly), generate random sentences
 using the parsed chat as data input (Thanks to markovify library) and then post them to your Instagram account with a picture you choose. 
 
+HOW TO USE?
+
+You will need to download Python 3 (obviously) and install markovify (https://pypi.org/project/markovify/) and instabot (https://pypi.org/project/instabot/#description) modules. After you have them installed, simply run Urabot.py and that's basically it! 
+
 ABOUT PARSING
 
 Instagram, Facebook and WhatsApp (probably other apps too, but I don't really use them) allow you to export the chat with a specific person (or with all of them). You should
@@ -62,4 +66,4 @@ jsonParse.py file.
 CREDITS
 
 jsvine - Markovify
-The author of Instabot, unfortunately I cant find his name for some reason.
+bruvv - Instabot
