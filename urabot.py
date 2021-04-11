@@ -44,8 +44,3 @@ Press any other key to exit
         igbot.postIt(cred[0], cred[1], imgName, dir_path)
     else:
         entry = False
-
-
-'''
-TODO:
-citanje usera i pw iz configa, mozda cak i ime slike i onda pozivanje bez hardkodovanja'''
