@@ -65,5 +65,5 @@ jsonParse.py file.
 
 # CREDITS
 
-jsvine - Markovify
-bruvv - Instabot
+* jsvine - Markovify
+* bruvv - Instabot
