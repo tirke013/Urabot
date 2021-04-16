@@ -28,7 +28,6 @@ def doTheMarkov(path, state):
 
     queueReader = open(path+"\publishQueue.txt", "r", encoding="utf-8")
     queueText = queueReader.readlines()
-    #print("Duzina queuetexta je ", len(queueText))
     queueWriter = open(path+"\publishQueue.txt", "w", encoding="utf-8")
     if len(queueText)==0:
         queueText.append("0")
