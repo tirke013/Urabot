@@ -9,24 +9,25 @@ using the parsed chat as data input (Thanks to markovify library) and then post 
 
 # HOW TO USE?
 
-You will need to download Python 3 (obviously) and install markovify (https://pypi.org/project/markovify/) and instabot (https://pypi.org/project/instabot/#description) modules. After you have them installed, simply run Urabot.py and that's basically it! 
+You will need to download Python 3 (obviously) and install [markovify](https://pypi.org/project/markovify/) and [instabot](https://pypi.org/project/instabot/#description) modules. After you have them installed, simply run Urabot.py and that's basically it! 
 
 # ABOUT PARSING
 
-Instagram, Facebook and WhatsApp (probably other apps too, but I don't really use them) allow you to export the chat with a specific person (or with all of them). You should
-choose JSON option and then you either get a fileName.json (WhatsApp) or zip full of the personName folders with message_1.json files. To be able to parse the data using
+Instagram and Facebook (probably other apps too, but I don't really use them) allow you to export the chat with a specific person (or with all of them). You should
+choose JSON option and then you get a zip full of the personName folders with message_1.json files. To be able to parse the data using
 Urabot, if your .json file is not named message_1, rename it and put it in the folder you run Urabot from. After that, just run Urabot and choose the 2nd option. It will 
 ask you about the person's name, which you can find by opening .json file with notepad. When you open it you will see something like:
 
-...
-"participants": [
-    {
-      "name": "Name of the first person"
-    },
-    {
-      "name": "Name of the second person"
-    }
-...
+
+    ...
+    "participants": 
+        {
+          "name": "Name of the first person"
+        },
+        {
+          "name": "Name of the second person"
+        }
+    ...
 
 Just copy the name of person whose messages you want to use and paste it into Urabot and press enter. After that, Urabot will parse all messages from that person and store
 them in a file named parsed.txt. If you want to add more messages, running Urabot with another file will not overwrite the file, so feel free to run it multiple times.
